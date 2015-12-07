@@ -2,7 +2,7 @@
 
 import re
 
-with open('5.txt', 'r') as infile:
+with open('inputs/5.txt', 'r') as infile:
     data = infile.read()
 
 my_list = data.splitlines()

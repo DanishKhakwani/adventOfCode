@@ -1,6 +1,6 @@
 #!/usr/bin/python3.4
 
-with open('3.txt', 'r') as infile:
+with open('inputs/3.txt', 'r') as infile:
     data = infile.read()
 
 my_list = data.splitlines()

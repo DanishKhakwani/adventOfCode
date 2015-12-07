@@ -1,7 +1,7 @@
 #!/usr/bin/python3.4
 
 # open the file for reading.
-with open('1.txt', 'r') as infile:
+with open('inputs/1.txt', 'r') as infile:
 
         data = infile.read()  # Read the contents of the file into memory.
 

@@ -1,7 +1,2 @@
-uxcplgxnkwbdwhrp
-suerykeptdsutidb
-dmrtgdkaimrrwmej
-ztxhjwllrckhakut
-gdnzurjbbwmgayrg
-gjdzbtrcxwprtery
-fbuqqaatackrvemm
+turn on 499,499 through 500,500
+toggle 499,499 through 500,501

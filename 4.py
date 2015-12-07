@@ -1,3 +1,5 @@
+#!/usr/bin/python3.4
+
 import hashlib
 
 def gimmeNumber(inputStr, hashStartVal):

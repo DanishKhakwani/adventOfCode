@@ -1,3 +1,5 @@
+#!/usr/bin/python3.4
+
 # open the file for reading.
 with open('1.txt', 'r') as infile:
 

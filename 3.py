@@ -1,3 +1,5 @@
+#!/usr/bin/python3.4
+
 with open('3.txt', 'r') as infile:
     data = infile.read()
 

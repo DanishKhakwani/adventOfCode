@@ -80,7 +80,7 @@ def increase_brightness(coords, dic, op):
                 dic[st_x,st_y] += 1
             elif op == 'off' and dic[st_x,st_y] > 0:
                 dic[st_x,st_y] -= 1
-            else:
+            elif op == 'toggle':
                 dic[st_x,st_y] += 2
 
             st_y = str(int(st_y)+1)
@@ -120,4 +120,4 @@ for step in my_list:
         dic2 = increase_brightness(coords, dic2, 'toggle')
 
 print('Total lights lit: ' + str(get_lights(dic)))
-#print('Total brightness: ' + str(get_brightness(dic2)))
+print('Total brightness: ' + str(get_brightness(dic2)))

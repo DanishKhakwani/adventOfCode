@@ -1,12 +1,12 @@
 #!/usr/bin/python3.4
 
 def main():
-    day7_1 = day_7_solver('7.txt')
+    day7_1 = assemble('inputs/7.txt')
     print('Part 1: {}'.format(day7_1))
-    #day7_2 = day_7_solver('day7_2input.txt')
-    #print('Part 2: {}'.format(day7_2))
+    day7_2 = assemble('inputs/7b.txt')
+    print('Part 2: {}'.format(day7_2))
 
-def day_7_solver(file):
+def assemble(file):
     with open(file) as input:
         instructions = [line.strip() for line in input]
 
